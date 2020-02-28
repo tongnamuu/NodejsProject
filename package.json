@@ -1,0 +1,22 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "Web Project with Nodejs and Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongnamuu/NodejsProject.git"
+  },
+  "author": "tongnamuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tongnamuu/NodejsProject/issues"
+  },
+  "homepage": "https://github.com/tongnamuu/NodejsProject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
