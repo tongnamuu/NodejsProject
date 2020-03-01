@@ -1,4 +1,5 @@
-const express = require("express");
+import express from "express";
+//const express = require("express");
 const app = express();
 
 const handleListening = () => {
@@ -6,12 +7,13 @@ const handleListening = () => {
 };
 app.listen(4000, handleListening);
 
-function handleHome(req, res) {
-  res.send("Hello Home");
-}
+const handleHome = (req, res) => res.send("This is Home Page");
+
 app.get("/", handleHome);
 
-function handleProfile(req, res) {
-  res.send("This is Profile Page");
-}
+// function handleProfile(req, res) {
+//   res.send("This is Profile Page");
+// }
+const handleProfile = (req, res) => res.send("This is Profile Page");
+
 app.get("/profile", handleProfile);
